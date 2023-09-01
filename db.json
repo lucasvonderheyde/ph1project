@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_name": "email1@gmail.com",
+      "password": "123",
+      "user_photo": "https://static.wikia.nocookie.net/guitar/images/a/a1/559474.jpg/revision/latest?cb=20100719181657",
+      "user_music": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": 2,
+      "user_name": "email2@gmail.com",
+      "password": "asd",
+      "user_photo": "https://styles.redditmedia.com/t5_2s0fe/styles/communityIcon_2cbkzwfs6kr21.png",
+      "user_music": [
+        "19",
+        "20",
+        "18"
+      ]
+    }
+  ],
+  "musicdata": [
+    {
+      "id": 1,
+      "name": "Song 1",
+      "artist": "artist 1",
+      "year": "1980",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 2,
+      "name": "Song 2",
+      "artist": "artist 2",
+      "year": "1980",
+      "genre": "Rock n' roll",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 3,
+      "name": "Song 3",
+      "artist": "artist 3",
+      "year": "1980",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 4,
+      "name": "Song 4",
+      "artist": "artist 4",
+      "year": "1990",
+      "genre": "Rock n' roll",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 5,
+      "name": "Song 5",
+      "artist": "artist 5",
+      "year": "1990",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 6,
+      "name": "Song 6",
+      "artist": "artist 6",
+      "year": "2000",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 7,
+      "name": "Song 7",
+      "artist": "artist 7",
+      "year": "2000",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 8,
+      "name": "Song 8",
+      "artist": "artist 8",
+      "year": "1990",
+      "genre": "Rock n' roll",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 9,
+      "name": "Song 9",
+      "artist": "artist 9",
+      "year": "1990",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 10,
+      "name": "Song 10",
+      "artist": "artist 10",
+      "year": "2000",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 11,
+      "name": "Song 11",
+      "artist": "artist 11",
+      "year": "1980",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 12,
+      "name": "Song 12",
+      "artist": "artist 12",
+      "year": "1980",
+      "genre": "Rock n' roll",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 13,
+      "name": "Song 13",
+      "artist": "artist 13",
+      "year": "1980",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 14,
+      "name": "Song 14",
+      "artist": "artist 14",
+      "year": "1990",
+      "genre": "Rock n' roll",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 15,
+      "name": "Song 15",
+      "artist": "artist 15",
+      "year": "1990",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 16,
+      "name": "Song 16",
+      "artist": "artist 16",
+      "year": "2000",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 17,
+      "name": "Song 17",
+      "artist": "artist 17",
+      "year": "2000",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 18,
+      "name": "Song 18",
+      "artist": "artist 18",
+      "year": "1990",
+      "genre": "Rock n' roll",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 19,
+      "name": "Song 19",
+      "artist": "artist 19",
+      "year": "1990",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    },
+    {
+      "id": 20,
+      "name": "Song 20",
+      "artist": "artist 20",
+      "year": "2000",
+      "genre": "Heavy Metal",
+      "img": "",
+      "url": ""
+    }
+  ]
+}
