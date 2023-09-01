@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         for (let i = 0; i < allUser.length; i++) {
 
-            if (logEmail === allUser[i].user_name && logPass === allUser[i].password) {  
+            if (logEmail === allUser[i].user_email && logPass === allUser[i].password) {  
                 
                 loggedUserId = (1+i)
                 userFound = true;
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         for (let i = 0; i < allUser.length; i++) {
 
-            if (createEmail === allUser[i].user_name) {              
+            if (createEmail === allUser[i].user_email) {              
                 freename = false;
                 break;
             }
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {         
           const newUser = {
             id:"",
-            user_name: createEmail ,
+            user_email: createEmail ,
             password: createPass,
             user_photo: createphoto,
             user_music: []
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         for (let i = 0; i < allUser.length; i++) {
 
-            if (updateEmail === allUser[i].user_name && updateOldPass === allUser[i].password) {  
+            if (updateEmail === allUser[i].user_email && updateOldPass === allUser[i].password) {  
                 
                 loggedUserId = (1+i)
                 userFound = true;
