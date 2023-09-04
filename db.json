@@ -2,14 +2,31 @@
   "users": [
     {
       "id": 1,
-      "user_email": "email1@gmail.com",
-      "user_name": "JCLL",
-      "user_name_quest": 0,
+      "user_name": "email1@gmail.com",
+      "password": "123",
+      "user_photo": "https://static.wikia.nocookie.net/guitar/images/a/a1/559474.jpg/revision/latest?cb=20100719181657",
+      "user_music": [
+        "1",
+        "2",
+        "3"
+      ],
+      "user_name_quest": 0
+    },
+    {
+      "id": 2,
+      "user_name": "email2@gmail.com",
       "password": "asd",
       "user_photo": "https://images.ctfassets.net/m8onsx4mm13s/4b4MLbkRKPDjD5enCd7igN/63dd7a7266e66cff2db0ac277e5ffccd/__static.gibson.com_product-images_USA_USA8LG109_Ebony_front-banner-640_480.png",
       "user_music": [
         1
       ]
+    },
+    {
+      "id": 3,
+      "user_name": "123@gmail.com",
+      "password": "Login",
+      "user_photo": "https://i.pinimg.com/originals/ae/ec/c2/aeecc22a67dac7987a80ac0724658493.jpg",
+      "user_music": []
     }
   ],
   "musicdata": [
