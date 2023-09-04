@@ -6,14 +6,17 @@
 
     <meta charset="utf-8">
     <title>FlatIfy - Discover new music! 2</title>
-    <script type="module" src="./itunesFetch.js" charset="utf-8"></script>
-    <script type="module" src="./2index.js" charset="utf-8"></script>
+    <!-- <script type="module" src="./itunesFetch.js" charset="utf-8"></script>
+    <script type="module" src="./2index.js" charset="utf-8"></script> -->
+    
+    <script defer src="./2index.js" charset="utf-8"></script>
     <link rel="stylesheet" href="2style.css">
 
   </head>
 
 
   <body>
+
 
     <div id="div1">
       <h2 id="user-name"></h2>
@@ -40,6 +43,7 @@
           <br>
         <select id="genre-dropdown">
           <option disabled selected value="">Select</option>
+          <option value="heavymetal">Heavy Metal</option>
           <option value="Rock">Rock</option>
           <option value="Classical">Classical</option>
           <option value="Jazz">Jazz</option>
@@ -49,33 +53,28 @@
           <br>
         <select id="number-to-discover">
           <option disabled selected value="">0</option>
-          <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
-          <option value="4">5</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
         </select>
           <br>
+          <input type="submit" value="Discover!!! \m/" id="discover-music"></button>
       </form>
       <br>
-      <button id="discover-music">Discover</button>
+      
       <br>
-      <h3>New Music</h3>
+      <button id="reset-all">Reset</button>
       <br>
-      <div id="song-information">
-        <ol id="random-music-results"></ol>
-        <h3 id="artist-name">Artist Name</h3>
-        <h4 id="album-name">Album Name</h4>
-        <img id="album-image" src="" alt="album image">
-        <audio id="audio-preview" controls>
-          <source src="URL_TO_SONG_PREVIEW.mp3" type="audio/mpeg">
-        </audio>
-        <br>
-        <button id="search-again">Search Again!</button>
-      </div>
->>>>>>> b99a80f (div4 functionality added, edited html, added api functionality, imported itunes api fetch into index.js)
     </div>
 
+
+    <div id="songs-discovered">
+
+
+    </div>
 
 
   </body>

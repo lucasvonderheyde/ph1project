@@ -1,4 +1,4 @@
-const genreSelection = document.querySelector("#genre-dropdown");
+const genreSelection = document.z("#genre-dropdown");
 const numberOfSongsToDiscover = document.querySelector('#number-to-discover')
 const discoverButton = document.querySelector("#discover-music")
 const discoveryDiv = document.querySelector("#div-4")
