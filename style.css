@@ -1,3 +1,68 @@
-#login {
+body {
+    background: linear-gradient(grey,white) ;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+#div-to-Delete {
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row; /* Arrange divs horizontally */
+    height: 100vh; /* Set the height to 100% of the viewport height */
     
+}
+
+#div4 {
+    flex: 1; /* Each div takes an equal portion of the available width (50% each) */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: left; /* Align text to the left */
+    overflow-y: auto;
+}
+
+#div5{
+    flex: 1; /* Each div takes an equal portion of the available width (50% each) */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: left; /* Align text to the left */
+    overflow-y: auto;
+}
+
+#div1 {    flex: 1; /* Each div takes an equal portion of the available width (50% each) */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: left; /* Align text to the left */
+    overflow-y: auto;
+}
+
+#div {
+    flex: 1; /* Each div takes an equal portion of the available width (50% each) */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: left; /* Align text to the left */
+    overflow-y: auto;
+}
+
+
+.spacer {
+    flex-basis: 5%; /* Create a space of 15% of the screen width */
+}
+
+#user-image {
+    max-width: 100%;
+    height: auto;
 }

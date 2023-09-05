@@ -11,54 +11,131 @@
 
   </head>
 
-
   <body>
 
     <div id="div-to-Delete">
-      <h4>Log into your account</h4>
+      <h1>Flatiron!</h1>
+      <h2>Discover new music</h2>
+      <br>
+      <br>
+      <h3>Log into your account</h3>
         <form id="login">
-            
+         
             <label>Email:</label>
-            <input type="email" id="login-email">
+            <br>
+            <input type="email" id="login-email"><br>
 
-            <label>Password:</label>
-            <input type="password" id="login-pass">
-            <input type="submit" value="login">
+            <label>Password:</label><br>
+            <input type="password" id="login-pass"><br>
+            <input type="submit" value="login"><br>
         </form>
 
-        <h4>New account:</h4>
+        <h4>New account:</h4><br>
 
         <form id="create-account">
             
-            <label>Email:</label>
-            <input type="email" id="create-email">
+            <label>Email:</label><br>
+            <input type="email" id="create-email"><br>
 
-            <label>Photo:</label>
-            <input type="text" id="create-photo">
+            <label>Photo:</label><br>
+            <input type="text" id="create-photo"><br>
 
-            <label>Password:</label>
-            <input type="password" id="create-pass">
-            <input type="submit" value="Create">
+            <label>Password:</label><br>
+            <input type="password" id="create-pass"><br>
+            <input type="submit" value="Create"><br>
         </form>
 
-        <h4>Update password:</h4>
+        <h4>Update password:</h4><br>
 
         <form id="update-password">
             
-            <label>Email:</label>
-            <input type="email" id="update-email">
+            <label>Email:</label><br>
+            <input type="email" id="update-email"><br>
 
-            <label>Old password:</label>
+            <label>Old password:</label><br>
             <input type="text" id="update-oldpass">
+            <br>
+
+            <label>New Password:</label><br>
+            <input type="password" id="update-newpass"><br>
             
-            <label>New Password:</label>
-            <input type="password" id="update-newpass">
-            
-            <label>Check new Password:</label>
-            <input type="password" id="update-checknewpass">
-            <input type="submit" value="Update">
+            <label>Check new Password:</label><br>
+            <input type="password" id="update-checknewpass"><br>
+            <input type="submit" value="Update"><br>
         </form>
     </div>
+
+
+<div class="container">
+    <div id="div1">
+        <h1 id="user-name"></h1>
+        <br>
+        <h3 id="user-email"></h3>
+        <br>
+        <img id="user-image" src="">
+        <br>
+        <button id="update-photo">Upload photo</button>
+       
+        <button id="update-username">Update username</button>
+        <br>
+        <h4 id="user-music">My music:</h4>
+
+          <div id="div2">
+          
+          </div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div id="div4">
+      <h3>Discover new music!</h3>
+      <form id="discover-form">
+        <label>Genre:</label>
+         
+        <select id="genre-dropdown">
+          <option disabled selected value="">Select</option>
+          <option value="heavymetal">Heavy Metal</option>
+          <option value="Rock">Rock</option>
+          <option value="Classical">Classical</option>
+          <option value="Jazz">Jazz</option>
+        </select>
+          <br>
+        <label>How many song do you want?</label>
+     
+        <select id="number-to-discover">
+          <option disabled selected value="">0</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+        </select>
+          <br>
+          <input type="submit" value="Discover!!! \m/" id="discover-music"></button>
+      </form>
+      <br>
+      
+      <br>
+      <button id="reset-all">Reset</button>
+      <br>
+
+        <div id="div5">
+
+
+        </div>
+  
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
 
 
   </body>
